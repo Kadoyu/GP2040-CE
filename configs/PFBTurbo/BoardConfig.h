@@ -8,6 +8,9 @@
 
 #include "enums.pb.h"
 
+
+#define BOARD_CONFIG_LABEL "PFBTurbo"
+
 // This is the main pin definition section.
 // This will let you specify which GPIO pin each button is assigned too.
 // You can set any of the main pins as `-1` to disable it.
@@ -83,6 +86,9 @@
 // This will change how many addressible RGB LEDs there are per button.
 // The default LEDS_[BUTTON] is an order and has nothing to do with what GPIO pin something is connected to.
 // Unless you are planning on running custom animations I would recommmend you leave this as is.
+
+
+#define TURBO_ENABLED 1
 
 #define TURBO_LED_PIN -1
 
