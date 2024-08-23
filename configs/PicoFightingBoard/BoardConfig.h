@@ -42,6 +42,9 @@
 #define GPIO_PIN_26 GpioAction::ASSIGNED_TO_ADDON
 #define GPIO_PIN_27 GpioAction::ASSIGNED_TO_ADDON
 
+#define TURBO_ENABLED 1
+#define GPIO_PIN_28 GpioAction::BUTTON_PRESS_TURBO
+
 // Keyboard Mapping Configuration
 //                                            // GP2040 | Xinput | Switch  | PS3/4/5  | Dinput | Arcade |
 #define KEY_DPAD_UP     HID_KEY_ARROW_UP      // UP     | UP     | UP      | UP       | UP     | UP     |
